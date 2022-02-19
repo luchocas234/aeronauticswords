@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/aeronauticwords/static/css/main.8c684644.css",
+    "main.js": "/aeronauticwords/static/js/main.7430c1b4.js",
+    "index.html": "/aeronauticwords/index.html",
+    "main.8c684644.css.map": "/aeronauticwords/static/css/main.8c684644.css.map",
+    "main.7430c1b4.js.map": "/aeronauticwords/static/js/main.7430c1b4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c684644.css",
+    "static/js/main.7430c1b4.js"
+  ]
+}
