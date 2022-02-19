@@ -21,6 +21,7 @@
   grid-template: auto auto / repeat(13,1fr);
   gap:10px;
   text-align: center;
+  min-width: 400px;
   
   
 }
