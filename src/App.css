@@ -31,9 +31,15 @@
   border-color: azure;
 }
 .teclas{
-  width: 90%;
-  text-align: center;
+  
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(10, minmax(15px,1fr));
+  
+  justify-content: center;
   align-items: center;
+  align-content: center;
+  
 
   
   
@@ -41,14 +47,11 @@
 } 
 
 .btn{ 
-  text-transform: capitalize;
-  font-size: 15px;
-  padding: 6px 10px;
-  margin: 5px 5px;
-  
+  text-transform: capitalize;  
+  text-align: center;
   justify-content: center;
   align-items: center;
-  
+  font-size: 20px;
 
   
 }
