@@ -130,7 +130,7 @@ perdiste(){
 
 
     <div className='game'>
-        <h1 className='titulo'>Aeronautic Words D:</h1>
+        <h1 className='titulo'>Aeronautics Words D:</h1>
         {gameStart? 
         <div>
             
