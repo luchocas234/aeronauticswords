@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/aeronauticswords/static/css/main.032b8110.css",
+    "main.css": "/aeronauticswords/static/css/main.2ca7863c.css",
     "main.js": "/aeronauticswords/static/js/main.31c1f09e.js",
     "index.html": "/aeronauticswords/index.html",
-    "main.032b8110.css.map": "/aeronauticswords/static/css/main.032b8110.css.map",
+    "main.2ca7863c.css.map": "/aeronauticswords/static/css/main.2ca7863c.css.map",
     "main.31c1f09e.js.map": "/aeronauticswords/static/js/main.31c1f09e.js.map"
   },
   "entrypoints": [
-    "static/css/main.032b8110.css",
+    "static/css/main.2ca7863c.css",
     "static/js/main.31c1f09e.js"
   ]
 }
