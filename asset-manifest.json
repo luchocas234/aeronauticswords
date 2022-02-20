@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/aeronauticwords/static/css/main.701ff90d.css",
-    "main.js": "/aeronauticwords/static/js/main.7430c1b4.js",
+    "main.css": "/aeronauticwords/static/css/main.eab9d5ec.css",
+    "main.js": "/aeronauticwords/static/js/main.e778ed69.js",
     "index.html": "/aeronauticwords/index.html",
-    "main.701ff90d.css.map": "/aeronauticwords/static/css/main.701ff90d.css.map",
-    "main.7430c1b4.js.map": "/aeronauticwords/static/js/main.7430c1b4.js.map"
+    "main.eab9d5ec.css.map": "/aeronauticwords/static/css/main.eab9d5ec.css.map",
+    "main.e778ed69.js.map": "/aeronauticwords/static/js/main.e778ed69.js.map"
   },
   "entrypoints": [
-    "static/css/main.701ff90d.css",
-    "static/js/main.7430c1b4.js"
+    "static/css/main.eab9d5ec.css",
+    "static/js/main.e778ed69.js"
   ]
 }
