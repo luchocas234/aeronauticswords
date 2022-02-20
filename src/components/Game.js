@@ -48,7 +48,7 @@ reset =() => {
 
 
 buttons (){
-    return "abcdefghijklmnñopqrstuvwxyz".split("").map(letter => (
+    return "qwertyuiopasdfghjklñzxcvbnm".split("").map(letter => (
         <button className='btn'
             key={letter}
             value={letter}
