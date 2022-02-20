@@ -6,31 +6,56 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  
   color: white;
+  margin-top: 0px;
 }
-
+.titulo{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.game{
+  font-size: 15px;
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .avion-img{
-  max-width: 450px;
+  margin: auto;
+  max-width: 70%;
+  min-width: 30%;
   border: 2px solid;
   border-radius: 20px;
   border-color: azure;
 }
 .teclas{
-  display: grid;
-  grid-template: auto auto / repeat(13,1fr);
-  gap:10px;
+  width: 90%;
   text-align: center;
-  min-width: 400px;
+  align-items: center;
+
   
   
-}
+  
+} 
 
 .btn{ 
   text-transform: capitalize;
+  font-size: 15px;
+  padding: 6px 10px;
+  margin: 5px 5px;
+  
+  justify-content: center;
+  align-items: center;
+  
+
+  
 }
 
 .vidas{
+  margin-top: 0px;
+  font-size: 10px;
   display: inline-flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -41,7 +66,7 @@
 .btn1{
   display:inline-block;
   padding:0.7em 1.4em;
-  margin:0 0.3em 0.3em 0;
+  margin:10px 0.3em 0.3em 0;
   border-radius:0.15em;
   box-sizing: border-box;
   font-size: 1.2em;
@@ -70,4 +95,14 @@
   box-shadow:inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
   text-align:center;
   position:relative;
+}
+
+.inicio-game{
+  
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
 }

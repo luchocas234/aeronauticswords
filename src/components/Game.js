@@ -48,7 +48,7 @@ reset =() => {
 
 
 buttons (){
-    return "abcdefghijklmnopqrstuvwxyz".split("").map(letter => (
+    return "abcdefghijklmnñopqrstuvwxyz".split("").map(letter => (
         <button className='btn'
             key={letter}
             value={letter}
@@ -91,9 +91,8 @@ nextimage(nombre){
 
 }
 
-esrepetido(){
-    
-
+perdiste(){
+    return <h1> ¡¡PERDISTE!!</h1>
 }
 
  
@@ -123,15 +122,15 @@ esrepetido(){
       }
   
       if (gameOver) {
-        gameStat = "You Lost!!!"
+        gameStat = this.perdiste();
       }
 
   return (
 
 
 
-    <div className='Game'>
-        <h1>Aeronautic Words D:</h1>
+    <div className='game'>
+        <h1 className='titulo'>Aeronautic Words D:</h1>
         {gameStart? 
         <div>
             
@@ -140,23 +139,18 @@ esrepetido(){
         : 
 
         <div className='inicio-game'>
-            <div className='vidas'>
+            
+                <div className='vidas'>
                 <h2>Vidas: {this.state.mistake}</h2>
                 <h2> Aciertos: {this.state.aciertos}</h2>
-            </div>
-
-            <div className='avion'>
-             <img src={this.state.imagen} className='avion-img'alt="airplanes"/>
-                <h2>{this.guessedWord()}</h2> 
-            </div>
-
-            <div className='teclas'>
+                </div>
+                <img src={this.state.imagen} className='avion-img'alt="airplanes"/>
+                <h2>{this.guessedWord()}</h2>
+                <div className='teclas'> 
                 {gameStat}
-            </div>
-
-            <br/>
-
-            <button className="btn2" onClick={this.reset} > RESTART </button>
+                </div>
+                <br/>
+                <button className="btn2" onClick={this.reset} > RESTART </button>
         
         
         </div>}
