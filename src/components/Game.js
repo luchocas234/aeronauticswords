@@ -105,6 +105,7 @@ perdiste(){
     const isWinner = this.guessedWord().join("") === this.state.model;
     const gameStart= this.state.start;
     let gameStat = this.buttons();
+    let perdistef= false;
     
     
 
@@ -122,7 +123,7 @@ perdiste(){
       }
   
       if (gameOver) {
-        gameStat = this.perdiste();
+        perdistef = true;
       }
 
   return (
@@ -146,9 +147,10 @@ perdiste(){
                 </div>
                 <img src={this.state.imagen} className='avion-img'alt="airplanes"/>
                 <h2>{this.guessedWord()}</h2>
-                <div className='teclas'> 
+                {perdistef ? <div> {this.perdiste()}</div> :<div className='teclas'> 
                 {gameStat}
-                </div>
+                </div> }
+                
                 <br/>
                 <button className="btn2" onClick={this.reset} > RESTART </button>
         
