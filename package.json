@@ -1,6 +1,6 @@
 {
   "homepage":"https://luchocas234.github.io/aeronauticswords" ,
-  "name": "aeronauticswords",
+  "name": "guessairplanes",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
