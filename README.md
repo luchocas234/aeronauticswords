@@ -1,4 +1,4 @@
-# Aeronautics Words - Handmen Game
+# Aeronautics Words - Hangman Game
 
 Este pequeño proyecto fue realizado para afianzar los conocimientos básicos de React 
 Está pensado actualizarlo consultando una API que nos entregue nombres e imagenes para poder seguir jugando. 
